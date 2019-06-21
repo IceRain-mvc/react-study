@@ -1,0 +1,488 @@
+react
+  模式:MVC
+  没有指令
+
+  脚手架: webpack
+
+  JSX: <div> 是不是dom节点  而是虚拟Dom ,最终会转化成真实Dom
+
+  1:结构
+    js + x xml
+    {解析 js   } <xml  解析html div >
+  2:API使用
+    ReactDom.render():将虚拟DOM转化成真实DOM
+
+
+
+vue
+  模式 MVVM
+  指令 v-xxx webpack
+
+
+  jsx :
+   js  xml
+   {js}  <xml>
+   render return (<> {})
+
+   jsx === 虚拟DOM === react元素
+
+   <div>哈哈哈</div>
+
+    React.createElement("div",{class:"aaa"},"haha")
+
+
+  虚拟DOM转化成真实dom
+    ReactDom.render(<App /> , document.getElementById("root"),()=>{})
+
+
+  组件的传值:
+    父组件--->子组件
+    1:父组件 有值
+    2:属性 name={}
+    3:子组件收: this.props.name
+
+
+day02:
+  回顾:
+  组件
+    创建一个组件
+    1:新建一个js文件
+    2:class App extends React.Component{
+        构造:super  this.state = {数据}
+        render:return  虚拟dom === jsx === react元素
+        {js} <xml>
+
+    }
+  组件的传值
+    父传子
+    1:父组件中有值  <Day02 name={this.state.xxx} {...obj}/>
+    2:子组件接收   this.props.name
+    注意: this.props.name  传过来的值 不能改变  如果想要改变  this.setState({name:this.props.name})
+      1:this.props.name
+      2:结构可以传值
+
+    props:
+    state:
+
+子组件-->父组件传值
+  vue: <child @haha = "函数">   函数(参数){}
+       子组件  this.$emit("haha","想要传的值")
+  react:事件-->
+       1:子组件:值 this.props.事件("巴拉巴拉小魔仙")
+       2:父组件中 <Day02 事件="函数">  函数(参数){}
+
+
+
+day03:
+  回顾:
+  传值:
+    父传子:
+      <Child name = {this.state.name}/>
+      this.props.name
+    子传父
+      <Child 事件 ={函数}>   函数(参数){}
+      子组件:  this.props.事件({})
+    兄弟之间
+      子传父-->子
+      Context
+      Redux
+      MobX
+
+  这节课:
+    vue:
+    生命周期
+    1:代码更健壮
+    2:合适的地方写合适的代码
+
+    react:16.8.6
+     17 + 只有新的生命周期
+     16.3+ 既有旧的又有新的
+
+  注意:
+    旧的和新的只能在一个组件中使用一个
+
+  旧:
+    重要的声明周期
+
+    挂载:
+      constructor(){}
+      componentWillMount(){
+        //将要挂载
+      }
+
+      render(){}
+
+      componentDidMount
+    更新
+      props                         state
+      componentWillReceiveProps     shouldComponentUpdate
+      shouldComponentUpdate         ComponentWillUpdate
+      ComponentWillUpdate           render
+      render                        componentDidUpdate
+      componentDidUpdate
+
+    卸载
+      componentWillUnmount
+
+
+
+  新的生命周期
+
+     1:挂载
+        constructor()
+        static getDerivedStateFromProps()
+            翻译:将props的值赋值给state
+           this.setState({})
+
+
+           取代了1:componentWillMount
+           取代了2:componentWillReceiveProps
+           取代了3:ComponentWillUpdate
+
+           父组件中的props-->子组件的state
+           this.props.name = ""
+           this.setState({name:this.props.name})
+
+
+        render()
+        componentDidMount()
+     2:更新
+       static getDerivedStateFromProps()
+       shouldComponentUpdate()
+       render()//jsx
+       getSnapshotBeforeUpdate(nextProps)
+       获取更新之前的快照 记录
+       更新之前 记录一下
+        nextProps.list.length !==this.props.list.length
+        //记录 推得长度
+
+
+       //转化成真实dom
+       componentDidUpdate(){
+            操作dom
+       }
+     3:卸载
+       componentWillUnmount()
+
+
+1:刷新
+  等待1s   setTimeOut   清空定时器
+    初始化定时器
+    componentDidMount
+    销毁
+
+    发生改变
+     子组件 更新
+
+    数据没发生改变
+     子组件 不更新
+
+    点星星的时候 +1
+
+新的
+  数据(后台)-->页面
+
+
+  刷新
+    loading动画 定时器
+    axios
+    网络请求 中断
+
+    <列表 list={} />
+    判断 需不需要刷新
+
+    state 星星
+
+    很长  刷新 新的数据
+    判断 有没有新的数据 提示
+
+
+
+
+
+首页:
+  请求数据
+
+
+List 组件
+  判断有没有更新  render
+  更新了 有一个提示 2s之后销毁 this.props
+  渲染Dom componentDidUpdate
+
+
+day05:
+  生命周期
+    挂载:
+    constructor
+    static getDerivedStateFromProps
+    render
+    componentDidMount
+
+    更新
+
+    props  state   forceUpdate
+    static getDerivedStateFromProps
+    shouldComponentUpdate
+    render
+    getSnapshotBeforeUpdate
+    componentDidUpdate
+
+    卸载
+    componentWillUnmount
+
+  1:
+  vue:
+    <div >
+    this.$refs
+    ref:
+
+    怎么用:
+        1:构造 创建 this.playAudioDom = React.createRefs();
+        2:audio ref={this.playAudioDom}
+        3:this.playAudioDom
+
+  事件
+
+
+  上午:
+    ref:获取dom节点
+
+    1:定义:
+    构造 this.xxx = React.createRef()
+      audio/video
+      强制动画 swiper
+      第三方  Element
+
+    audio ref={this.xxx}
+
+    this.xxx.current .scrollHeight  .style   .
+
+day06:
+    回顾:
+    ref: 获取dom节点
+     1:媒体
+     2:强制动画
+     3:第三库 ElementUI  Antd
+
+    1:组件
+      传值
+    2:生命周期
+      旧
+      新
+    3:事件  <div 事件={合成事件}>
+
+
+    4:
+      1:发布订阅
+      2:路由  配置 : 路由表
+      3:高阶组件
+        使用场景
+      4:Redux
+
+
+   表单事件:
+
+     vue:
+        input  v-model :
+        ref
+     react:
+
+       受控
+         input  value={this.state.msg}
+         {msg}
+       非受控
+         ref
+
+
+   发布
+     送过来
+     送
+   订阅
+     饭
+     报纸
+
+   程序中:
+     观察者模式
+
+   原理
+     回调
+day07:
+   回顾:
+   发布订阅
+     原理:回调
+
+   发布(){   被观察者
+
+   }
+   订阅(key,callback){}观察者
+
+   观察者模式
+
+   观察者
+   被观察者
+
+
+   类型验证:  vue:props {"":类型}
+
+组件的封装
+
+   方便使用
+   按钮
+   弹框
+   列表
+
+    如何封装:
+      1:组件
+      2:功能 传不同的参数
+      3:状态提升  子传父
+
+
+day08:
+    1:封装
+    2:拖拽
+      1:复用性 父组件-->传过来的值  处理事件
+        接口:java Interface 回调  传值
+          回调
+
+      2:传参
+
+      拖拽
+        1:按下
+            2:移动
+            3:抬起 清空 (移动,抬起)
+
+路由:
+    1:jsx
+    2:生命周期
+    3:路由
+    4:状态管理 redux
+
+    高阶组件
+    发布订阅
+
+    Context
+
+
+    vue-router
+    router-Link  to="/"
+    router-View  显示
+
+   react:
+
+     React-Native  原生
+
+
+day09
+    两种模式:
+      history 跟组件  BrowserRouter
+      hash  #/ 不能提交到后台
+
+    路由
+    1:NavLink  设置样式
+      Link    点击
+      Route   显示  path="/路径"  component=组件
+      BrowserRouter as Router
+      HashRouter
+      Redirect   form  to
+      Switch Route Redirect
+
+
+day10:
+    回顾:
+    路由
+        最简单的使用
+        import {BrowserRouter as Router ,Link , Route} from "react-router-dom"
+
+        Router
+           Link to="/路径"
+           Route path
+
+        import Switch:管理
+
+        import Redirect
+
+           Switch
+               Route
+               Redirect
+
+        RouterView:
+
+            <RouterView routes={[{path="/",component=组件},...{path="/",redirect="/home"}]}/>
+
+            过滤:routes
+               1:取出 routes.filter(){path="/",redirect="/home"}
+               2:{path="/",redirect="/home"} --><Redirect />
+                  RedirectS  = [<Redirect />,<Redirect />,<Redirect />]
+
+            地址栏  /home
+
+            Switch
+
+              遍历
+                Route path="/home" render={(props)=>{
+                    return Home {...props}
+                }}     Home button
+                    props:路由对象
+                    history
+                      push
+                      replace
+                    location
+                      pathname
+                    match
+                      params
+                Route path="/page"  component={}
+                Route path="/me"  component={}
+                Route path="/"  component={}
+                {RedirectS}
+                {[1,2,3,4,5]} ==> 12345
+
+                Redirect
+
+
+day11
+    路由案例
+    高阶组件:
+    怎么用:
+      新的组件 = withRouter(组件)
+
+      withRouter:函数
+                 参数:组件
+                 返回值:组件
+
+    高阶组件:
+      新组件 = 函数(组件)
+      解决什么问题
+      横切关注点:
+        多个组件功能相同的时候 提取出来 放到高阶组件
+
+        代理
+            1:操作props
+            2:包装组件
+            3:ref(不常见) (不推荐)
+            4:状态
+
+        继承
+            生命周期     发布订阅
+            请求数据
+            拦截
+
+react:
+    redux
+    react+redux
+
+    redux:状态管理:  数据
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

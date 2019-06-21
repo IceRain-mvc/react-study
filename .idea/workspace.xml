@@ -1,0 +1,989 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4abb5214-11dc-4197-8e6a-29fd3053b578" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classtest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/like_button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day01/Index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day01/List.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day02/Child.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day02/Day02.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day02/jisuanqi/Button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day02/jisuanqi/Button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day02/jisuanqi/JiSuanQi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day02/jisuanqi/Plane.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day02/jisuanqi/Plane.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day02/jisuanqi/Show.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day02/jisuanqi/Show.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day02/jisuanqi/script/calculate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day02/jisuanqi/script/isNumber.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day02/jisuanqi/script/operate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day03/Father.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day03/Son.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day03/SonNew.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day04/Day04.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day04/Day04.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day04/Item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day04/Item.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day04/List.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day04/onChange/Change.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day05/Day05.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day05/Music/Btn.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day05/Music/Btn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day05/Music/Music.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day05/Music/Plan.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day06/Day06.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day06/Home/Bathroom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day06/Home/Dog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day06/Home/Dog2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day06/Home/DogRoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day06/Home/Father.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day06/Home/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day06/Home/Kitchen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day06/Home/Son.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day06/Watcher.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day06/Watcher01.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day07/Child.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day07/TypeV.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day07/dialog/Dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day07/dialog/Dialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day08/DragBox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day08/Index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day08/MyRouter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day08/RouterStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day08/router/routerConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day08/views/About.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day08/views/Detail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day08/views/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day09/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day09/baby/Baby.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day09/baby/baby/Cartoon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day09/baby/baby/Song.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day09/baby/baby/Story.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day09/baby/router/RouterView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day09/baby/router/routerConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day09/router/RouterView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day09/router/routerConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day09/views/Detail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day09/views/PageOne.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day09/views/PageThree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day09/views/PageTwo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day09/views/pageone/Child1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day09/views/pageone/Child2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day09/views/pageone/Child3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day10/Day10.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day10/baby.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day10/components/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day10/components/Item.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day10/path.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day10/router/RouterView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day10/router/routerConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day10/views/Listen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day10/views/Listen/BabySong.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day10/views/Listen/BabyStory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day10/views/Login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day10/views/Look.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day10/views/Look.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day10/views/Look/Cartoon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day10/views/Look/Song.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day10/views/Look/Story.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day10/views/Me.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day10/views/VideoDetail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day11/Father.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day11/HocComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day11/HocLogin/Detail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day11/HocLogin/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day11/HocLogin/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day11/HocLogin/Index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day11/HocLogin/Login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day11/HocLogin/Me.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day11/HocLogin/Page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day11/HocLogin/hoc/Cover.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day11/HocLogin/hoc/loginHocComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day11/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day11/connect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day12/Detail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day12/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day12/Receiver.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day12/ReduxHome.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day12/Send.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day12/store/reducer/detailReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day12/store/reducer/homeReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/day12/store/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testJSX.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记1702G.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-982283623">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="22" />
+          <entry key="project.open.time.0" value="16" />
+          <entry key="project.open.time.1" value="6" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="23" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="12" />
+          <entry key="html" value="3" />
+          <entry key="js" value="172" />
+          <entry key="json" value="4" />
+          <entry key="jsx" value="1" />
+          <entry key="ts" value="1" />
+          <entry key="txt" value="15" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="12" />
+          <entry key="HTML" value="3" />
+          <entry key="JSON" value="4" />
+          <entry key="JSX Harmony" value="1" />
+          <entry key="JavaScript" value="172" />
+          <entry key="PLAIN_TEXT" value="15" />
+          <entry key="TypeScript" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="561" />
+          <entry key="html" value="423" />
+          <entry key="js" value="18683" />
+          <entry key="txt" value="4970" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="561" />
+          <entry key="HTML" value="423" />
+          <entry key="JavaScript" value="18683" />
+          <entry key="PLAIN_TEXT" value="4970" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="ESLintLanguageService" value="23" />
+          <entry key="TypeScriptServerServiceImpl" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/笔记1702G.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="473" lean-forward="true" selection-start-line="473" selection-end-line="473" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/day12/ReduxHome.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/day12/Home.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="73">
+              <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/day12/Detail.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="18" column="71" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/day12/store/store.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="43" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="43" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#38#88#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/day12/store/reducer/detailReducer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/day12/store/reducer/homeReducer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/day12/Receiver.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/day12/Send.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="34" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/day11/HocLogin/Me.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/components/day09/router/routerConfig.js" />
+        <option value="$PROJECT_DIR$/src/components/day09/views/PageOne.js" />
+        <option value="$PROJECT_DIR$/src/components/day09/views/Detail.js" />
+        <option value="$PROJECT_DIR$/src/components/day09/baby/baby/Song.js" />
+        <option value="$PROJECT_DIR$/src/components/day09/baby/baby/Cartoon.js" />
+        <option value="$PROJECT_DIR$/src/components/day09/baby/baby/Story.js" />
+        <option value="$PROJECT_DIR$/src/components/day09/baby/router/routerConfig.js" />
+        <option value="$PROJECT_DIR$/src/components/day09/baby/Baby.js" />
+        <option value="$PROJECT_DIR$/src/components/day10/Day10.js" />
+        <option value="$PROJECT_DIR$/src/components/day09/Home.js" />
+        <option value="$PROJECT_DIR$/src/components/day09/router/RouterView.js" />
+        <option value="$PROJECT_DIR$/src/components/day10/path.js" />
+        <option value="$PROJECT_DIR$/src/components/day10/views/Look/Story.js" />
+        <option value="$PROJECT_DIR$/src/components/day10/views/Look/Cartoon.js" />
+        <option value="$PROJECT_DIR$/src/components/day10/views/Listen/BabySong.js" />
+        <option value="$PROJECT_DIR$/src/components/day10/views/Listen/BabyStory.js" />
+        <option value="$PROJECT_DIR$/src/components/day10/baby.js" />
+        <option value="$PROJECT_DIR$/src/components/day10/views/Footer.js" />
+        <option value="$PROJECT_DIR$/src/components/day10/views/Look.css" />
+        <option value="$PROJECT_DIR$/src/components/day10/views/Me.js" />
+        <option value="$PROJECT_DIR$/src/components/day10/views/Listen.js" />
+        <option value="$PROJECT_DIR$/src/components/day10/router/RouterView.js" />
+        <option value="$PROJECT_DIR$/src/components/day10/views/Look.js" />
+        <option value="$PROJECT_DIR$/src/components/day10/components/Item.js" />
+        <option value="$PROJECT_DIR$/src/components/day10/views/Look/Song.js" />
+        <option value="$PROJECT_DIR$/src/components/day10/router/routerConfig.js" />
+        <option value="$PROJECT_DIR$/src/components/day10/views/Login.js" />
+        <option value="$PROJECT_DIR$/src/components/day10/views/VideoDetail.js" />
+        <option value="$PROJECT_DIR$/src/components/day11/Father.js" />
+        <option value="$PROJECT_DIR$/src/components/day11/HocComponent.js" />
+        <option value="$PROJECT_DIR$/src/components/day11/Home.js" />
+        <option value="$PROJECT_DIR$/src/components/day11/connect.js" />
+        <option value="$PROJECT_DIR$/src/components/day11/Login/Login.js" />
+        <option value="$PROJECT_DIR$/src/components/day11/HocLogin/Login.js" />
+        <option value="$PROJECT_DIR$/src/components/day11/HocLogin/Header.js" />
+        <option value="$PROJECT_DIR$/src/components/day11/HocLogin/Detail.js" />
+        <option value="$PROJECT_DIR$/src/components/day11/HocLogin/Index.js" />
+        <option value="$PROJECT_DIR$/src/components/day11/HocLogin/Page.js" />
+        <option value="$PROJECT_DIR$/src/components/day11/HocLogin/Me.js" />
+        <option value="$PROJECT_DIR$/src/components/day11/HocLogin/hoc/loginHocComponent.js" />
+        <option value="$PROJECT_DIR$/src/components/day11/HocLogin/Home.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/components/day12/Send.js" />
+        <option value="$PROJECT_DIR$/src/components/day12/Receiver.js" />
+        <option value="$PROJECT_DIR$/笔记1702G.txt" />
+        <option value="$PROJECT_DIR$/src/components/day12/ReduxHome.js" />
+        <option value="$PROJECT_DIR$/src/components/day12/store/reducer/homeReducer.js" />
+        <option value="$PROJECT_DIR$/src/components/day12/store/reducer/detailReducer.js" />
+        <option value="$PROJECT_DIR$/src/components/day12/store/store.js" />
+        <option value="$PROJECT_DIR$/src/components/day12/Detail.js" />
+        <option value="$PROJECT_DIR$/src/components/day12/Home.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="y" value="27" />
+    <option name="width" value="1346" />
+    <option name="height" value="687" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="react1702G" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reactproject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react1702G" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reactproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react1702G" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reactproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react1702G" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reactproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="day12" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react1702G" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reactproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="day12" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react1702G" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reactproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="day12" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="reducer" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../1702E/reactproject" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="E:\project\1702G\reactproject\node_modules\eslint" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2018.2.5\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\project\1702G\reactproject\src\components\day10\component" />
+      <recent name="E:\project\1702G\reactproject\src\components\day06" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\project\1702G\reactproject\src\components\day12\store\reducer" />
+      <recent name="E:\project\1702G\reactproject\src\components\day11\HocLogin\hoc" />
+      <recent name="E:\project\1702G\reactproject\src\components\day10\router" />
+      <recent name="E:\project\1702G\reactproject\src\components\day09\baby\router" />
+      <recent name="E:\project\1702G\reactproject\public\img" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.eject">
+    <configuration name="debug" type="JavascriptDebugType" factoryName="JavaScript Debug" uri="http://localhost:3002">
+      <method v="2" />
+    </configuration>
+    <configuration name="classtest.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="classtest.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="eject" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="eject" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.debug" />
+      <item itemvalue="Node.js.classtest.js" />
+      <item itemvalue="npm.build" />
+      <item itemvalue="npm.eject" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.eject" />
+        <item itemvalue="Node.js.classtest.js" />
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4abb5214-11dc-4197-8e6a-29fd3053b578" name="Default Changelist" comment="" />
+      <created>1560040851846</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560040851846</updated>
+      <workItem from="1560040853429" duration="6087000" />
+      <workItem from="1560059965427" duration="5757000" />
+      <workItem from="1560126872127" duration="6161000" />
+      <workItem from="1560145715123" duration="5714000" />
+      <workItem from="1560169652546" duration="1308000" />
+      <workItem from="1560239713142" duration="17213000" />
+      <workItem from="1560316520393" duration="7901000" />
+      <workItem from="1560385553710" duration="6036000" />
+      <workItem from="1560405324373" duration="4510000" />
+      <workItem from="1560472790878" duration="5919000" />
+      <workItem from="1560490899904" duration="7361000" />
+      <workItem from="1560559589139" duration="6242000" />
+      <workItem from="1560751358178" duration="5412000" />
+      <workItem from="1560769346045" duration="5367000" />
+      <workItem from="1560817568773" duration="6813000" />
+      <workItem from="1560831245189" duration="6963000" />
+      <workItem from="1560856184398" duration="4151000" />
+      <workItem from="1560904339053" duration="6459000" />
+      <workItem from="1560920486729" duration="6058000" />
+      <workItem from="1560990484194" duration="5641000" />
+      <workItem from="1561010546205" duration="4916000" />
+      <workItem from="1561079647065" duration="3053000" />
+      <workItem from="1561096963746" duration="4623000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="139665000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24925596" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3295082" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.41967213" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/components/day09/baby/router/RouterView.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/day09/baby/Baby.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/day09/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="59" column="28" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/day09/router/RouterView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/day10/Day10.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="58" lean-forward="true" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/day09/router/routerConfig.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/day10/views/Me.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/day10/path.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/day10/views/Look/Story.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/day10/views/Listen/BabySong.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/day10/views/Listen/BabyStory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="35" lean-forward="true" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/day10/components/Footer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/day10/baby.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/day10/views/Listen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/day10/views/Look/Cartoon.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-router/esm/react-router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="687" column="10" lean-forward="true" selection-start-line="687" selection-start-column="10" selection-end-line="687" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/day10/router/RouterView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/day10/views/Look.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/day10/views/Look.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="113" selection-start-line="14" selection-start-column="113" selection-end-line="14" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/day10/components/Item.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="41" lean-forward="true" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/day10/router/routerConfig.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/day10/views/Login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/day10/views/Look/Song.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/day10/views/VideoDetail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="37" lean-forward="true" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/day11/HocComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/day11/Father.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="46" lean-forward="true" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/day11/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/day11/connect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="4" column="46" lean-forward="true" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/day11/HocLogin/Login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/day11/HocLogin/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/day11/HocLogin/hoc/Cover.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1452">
+          <caret line="66" column="29" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/day11/HocLogin/Index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/day11/HocLogin/Page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="23" column="44" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/day11/HocLogin/hoc/loginHocComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1540">
+          <caret line="70" column="22" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/day11/HocLogin/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="9" column="86" selection-start-line="9" selection-start-column="86" selection-end-line="9" selection-end-column="86" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/day11/HocLogin/Detail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/day11/HocLogin/Me.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/笔记1702G.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="473" lean-forward="true" selection-start-line="473" selection-end-line="473" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/redux/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="92" column="31" selection-start-line="92" selection-start-column="16" selection-end-line="92" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/day12/Receiver.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/day12/Send.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/day12/ReduxHome.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/day12/store/reducer/detailReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/day12/store/reducer/homeReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/day12/store/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="43" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#38#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/day12/Detail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="18" column="71" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/day12/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

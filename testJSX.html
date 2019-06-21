@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--1: React jsx  2:继承  React.Component 类 -->
+    <script src="https://cdn.bootcss.com/react/16.8.6/umd/react.development.js"></script>
+    <!--1:ReactDom.render(3各参数):虚拟dom转化成真实dom-->
+    <script src="https://cdn.bootcss.com/react-dom/16.8.6/umd/react-dom.development.js"></script>
+    <!--转化-->
+    <script src="https://cdn.bootcss.com/babel-standalone/7.0.0-beta.3/babel.js"></script>
+    <title>Title</title>
+    <!--
+        1:script  jsx
+        2:脚手架
+    -->
+
+
+</head>
+<body>
+    <div id="app">
+
+    </div>
+</body>
+
+<script>
+    //1:创建一个类  继承 React.Component
+
+    //继承  子类 继承 父类    目的 使用父类里面的方法  React.Component类
+    class App extends React.Component{
+        //1: this-->App
+        //super:
+        //constructor :构造 :
+        constructor(props) {
+            super(props);
+            // 属性
+        }
+
+        render() {
+            return (
+                <div>
+                    haha
+                </div>
+            );
+        }
+    }
+    //App react中的组件
+    ReactDOM.render(<App/>, document.getElementById("app"),()=>{});
+
+</script>
+</html>

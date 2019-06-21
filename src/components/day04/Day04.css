@@ -1,0 +1,16 @@
+.loading {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    display: flex;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading img {
+    width: 150px;
+    border-radius: 10px;
+}
