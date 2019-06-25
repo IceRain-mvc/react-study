@@ -472,6 +472,89 @@ react:
 
     redux:状态管理:  数据
 
+day13:
+    回顾:
+    redux:状态管理
+      0:下载 npm install redux --save
+        {createStore,combineReducer}
+      1:仓库
+
+        let reducer1 =(state=[],action)=>{}
+        let reducer2 =(state={},action)=>{}
+        let reducer3 =(state,action)=>{}
+        let reducer4 =(state,action)=>{}
+        let reducer5 =(state,action)=>{}
+
+        combineReducer({reducer1 ,reducer2})
+
+        store: createStore(reducer)
+          dispatch()
+          getState()
+          subscribe()
+
+        store.getState().reducer1
+
+    redux:  store
+    react-redux:
+        connect: 高阶组件 : 1:操作props  2:包装 3:生命周期
+        Provider
+    this.props.
+
+
+day14:
+    redux
+    react-redux
+
+    1:connect
+    2:Provider : react-redux
+
+
+      组件 = connect(mapStateToProps,mapDispatchToProps)(组件)
+
+      state 映射给 props
+      dispatch :
+
+      props
+
+回顾:
+    中间件
+    异步数据存储到仓库
+
+    dispatch({})
+
+    thunk
+        dispatch({同步})
+
+        dispatch(函数)   在哪执行? thunk内部 (next)
+
+        函数:异步请求数据
+
+        函数(真的dispatch){
+            请求数据(){
+                真的dispatch({存储})
+            }
+        }
+
+    thunk:
+        1:添加中间件
+        2:下载 redux-thunk
+        3:createStore(第二哥参数中(thunk))
+
+        组件:
+        dispatch(回调/对象)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
