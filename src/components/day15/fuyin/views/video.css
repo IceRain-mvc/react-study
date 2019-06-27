@@ -1,0 +1,20 @@
+.videoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.videoContainer span {
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    width: 30%;
+    height: 50px;
+    border-radius: 4px;
+    border: 1px solid #cccccc;
+    margin-top: 4px;
+}
+.videoContainer span:active {
+    background-color: #fb5a60;
+    color: #ffffff;
+}

@@ -1,0 +1,42 @@
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.list div {
+    flex: 1;
+}
+.list a {
+    /*width: 30%;*/
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    height: 50px;
+    color: #000;
+    width: 100%;
+    font-size: 22px;
+
+}
+.list a:active {
+    background-color: bisque;
+    color: #000;
+}
+
+/*.list a:hover {*/
+    /*background-color: bisque;*/
+    /*color: #000;*/
+/*}*/
+
+/*.list a:link {*/
+    /*background-color: #ff3f44;*/
+
+/*}*/
+
+.list .active {
+    color: #ffffff;
+    text-align: center;
+
+    background-color: #fb5a60;
+}

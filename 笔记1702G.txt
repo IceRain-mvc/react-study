@@ -543,14 +543,51 @@ day14:
         组件:
         dispatch(回调/对象)
 
+        改造dispatch 接受函数 返回一个真的dispatch
+
+        (next){
+            异步操作(){
+                结果:存起来
+                next({})
+            }
+        }
 
 
 
+day17:
+    回顾:
+    thunk:
+        异步数据
+        1:修改了dispatch
+        dispatch(fn)
 
+        fn(next){
+            异步请求(){
+                next({})
+            }
+        }
 
+    antd
 
+    1:安装
+    npm install antd
 
+    2:使用
+    import {antd组件} from "antd"
 
+day17:
+    回顾:
+    antd:
+    react UI
+    使用
+      1:下包
+      2:使用
+       2个
+       样式  antd/dist/antd.css
+             组件 {按钮,表格,表单}
+    作业:
+    0:Provider : 放在最外面
+    1:路由
 
 
 

@@ -23,9 +23,15 @@ import './App.css';
 import {Provider} from "react-redux";
 // import store from "./components/day13/store/store";
 // import Day13 from "./components/day13/Day13";
-import Day14 from "./components/day14/Day14";
-import store from "./components/day14/store/store";
-import Home from "./components/day15/Home";
+// import Day14 from "./components/day14/Day14";
+// import store from "./components/day14/store/store";
+// import Home from "./components/day15/Home";
+// import Index from "./components/day15/fuyin/views/Index";
+// import store from "./components/day15/store/store";
+// import Home from "./components/day16/Home";
+import Day17 from "./components/day17/Day17";
+import store from "./components/day17/store/store";
+// import store from "./components/day15/fuyin/store";
 
 //创建一个组件  1:无状态组件 function形式存在 2:有状态组件 class  state
 // function App() {
@@ -77,7 +83,9 @@ class App extends React.Component {
                 {/*Provider: connect 和store关联起来*/}
                 {/*1:Provider store={store}*/}
                 <Provider store={store}>
-                    <Home/>
+                    {/*<Index/>*/}
+                    {/*<Home/>*/}
+                    <Day17/>
                 </Provider>
             </>
         );
