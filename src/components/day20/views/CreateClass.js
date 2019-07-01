@@ -35,6 +35,7 @@ class CreateClass extends Component {
         this.props.saveClassObj(obj);
         //跳路由
 
+        console.log(id);
         this.props.history.push("/classdetail",{classId: id})
     }
 }
