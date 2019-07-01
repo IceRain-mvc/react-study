@@ -29,8 +29,14 @@ import {Provider} from "react-redux";
 // import Index from "./components/day15/fuyin/views/Index";
 // import store from "./components/day15/store/store";
 // import Home from "./components/day16/Home";
-import Day17 from "./components/day17/Day17";
-import store from "./components/day17/store/store";
+// import Day17 from "./components/day17/Day17";
+// import store from "./components/day17/store/store";
+// import Day18 from "./components/day18/Day18";
+// import Test from "./components/day19/Test";
+// import store from "./components/day19/store/store";
+// import CreateClass from "./components/day20/views/CreateClass";
+import ClassRoom from "./components/day20/ClassRoom";
+import store from "./components/day20/store/store";
 // import store from "./components/day15/fuyin/store";
 
 //创建一个组件  1:无状态组件 function形式存在 2:有状态组件 class  state
@@ -85,7 +91,7 @@ class App extends React.Component {
                 <Provider store={store}>
                     {/*<Index/>*/}
                     {/*<Home/>*/}
-                    <Day17/>
+                    <ClassRoom/>
                 </Provider>
             </>
         );

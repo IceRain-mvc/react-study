@@ -589,6 +589,185 @@ day17:
     0:Provider : 放在最外面
     1:路由
 
+day18:
+    react
+        day01:
+            React     "react"
+            创建虚拟DOM:
+            React.createElement("div",属性,子节点)   {type:"div",props:{id:"id"}}-->
+            虚拟dom===jsx===react元素
+            变量 = <div>哈哈哈<div>;
+
+            生命周期
+            render()
+            componentDidMount()
+
+            将虚拟dom-->真实dom
+            index.js  : ReactDom.render(<App/>,document.getElelmtntById("root"))
+            ReactDom  "react-dom"
+
+            jsx  {js  <xml
+              {for  if()}
+              三目运算符
+              数组.length!===0&&<>
+
+              .map(()=>{
+                if(){}
+
+              })
+
+        day02:
+            组件
+                嵌套
+                    引入
+                    <Child />
+                传值
+                    父组件-->子组件:
+                    <Child name={this.state.name}/>
+                    this.props.name
+
+                    子传父:
+
+                    父组件: 函数(aaa){}
+                    <Child name={函数}/>
+
+                    子组件:函数("aaa")
+
+                灵魂:
+                    props
+                         父组件
+                         只读
+                    state
+                         当前组件
+                         可以改变
+        day03: 旧 16.3 新
+            生命周期
+            旧    新
+
+            旧:
+            挂载                      更新                        销毁
+            constructor(props){}      componentWillReceiveProps  componentWillUnmount()
+            componentWillMount(){     shouldComponentUpdate      {清除定时器 取消请求 }
+                初始化:                componentWillUpdate
+            }                         render
+            render(){渲染虚拟dom}      componentDidUpdate
+            componentDidMount(){
+            请求数据 操作dom 定时器}
+
+
+            挂载                        更新                     销毁
+            constructor
+            getDerivedStateFromProps   getDerivedStateFromProps   componentWillUnmount
+            render                     shouldComponentUpdate
+            componentDidMount          render
+                                       getSnapshotBeforeUpdate
+                                       componentDidUpdate
+
+
+            this.forceUpdate()
+
+        路由
+            react-router-dom  5.0
+            步骤:
+              1:下载
+              2:引入  {组件} react-router-dom
+                BrowserRouter
+                Switch
+                Route
+                Redirect
+                NavLink
+                Link
+              <BrowserRouter>
+                div
+                    Switch
+                        Route
+                        Redirect
+              </BrowserRouter>
+
+              RouterView
+                [{path:,component}{path,redirect}]
+                1:传参
+                    遍历
+                2:
+                    Switch
+                         Route
+                         Redirect
+              子路由
+                Switch
+                    Route
+                    Redirect
+                RouterView routes={}
+              详情:动态路由
+                /:aaa
+
+                this.props.history.push/replace("/his/100",{})
+
+                this.props.match.params
+                this.props.location.state.
+
+            拦截:
+        高阶组件
+            新的组件 函数(组件)
+            横切关注点
+
+            1:修改props
+            2:生命周明
+            3:包装
+
+            高内聚:
+            低耦合:
+            新的组件 = 函数(组件)
+            新的组件 = 函数()()
+
+        connect : props  仓库 --->props
+        withRouter props
+
+        发布订阅:+  高阶组件
+
+            解决什么问题:组件传值
+
+        redux
+            1:下包:vue  react
+             thunk
+
+            2:react-redux
+
+            创建仓库:
+            {createStore,合并,中间件} redux
+
+
+            合并({reducer,})
+            createStore(reducers,中间件(thunk))
+
+            dispatch({})
+
+
+            函数(next){
+                请求数据(){
+                       next({})
+                }
+            }
+            dispatch(函数)
+
+
+            next = store.dispatch
+
+            store.dispatch = function(){
+
+            }
+
+        react-redux:
+            高阶组件 connect ()
+            Provider store={store}
+
+
+    异步组件:
+    import 组件  from "./"
+
+
+ day20:
+    
+
 
 
 

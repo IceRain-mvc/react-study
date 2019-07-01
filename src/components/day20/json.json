@@ -1,0 +1,21 @@
+[
+  {
+    "studentList": [
+      {
+        "name": "张三",
+        "studentId": 1,
+        "classId":1
+      }
+    ],
+    "className": "1702G",
+    "id": "1"
+  },
+  {
+    "studentList": [
+      {
+      }
+    ],
+    "className": "1702E",
+    "id": "2"
+  }
+]
