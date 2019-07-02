@@ -20,7 +20,6 @@ let initMapStateToProps = (state) => {
         allData: state.reducerAll
     }
 };
-
 let initMapDispatchToProps = (dispatch) => {
     return {
         // saveStudentObj: (studentObj) => {

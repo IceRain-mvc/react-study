@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4abb5214-11dc-4197-8e6a-29fd3053b578" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/day20/store/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/day20/store/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/day20/views/AddStudent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/day20/views/AddStudent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/day20/views/ClassDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/day20/views/ClassDetail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/day20/views/CreateClass.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/day20/views/CreateClass.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/day20/views/StudentDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/day20/views/StudentDetail.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -22,12 +19,12 @@
     <session id="-982283623">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="38" />
-          <entry key="project.open.time.0" value="26" />
+          <entry key="project.closed" value="39" />
+          <entry key="project.open.time.0" value="27" />
           <entry key="project.open.time.1" value="10" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="39" />
+          <entry key="project.opened" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -35,11 +32,11 @@
           <entry key="css" value="17" />
           <entry key="gitignore" value="1" />
           <entry key="html" value="4" />
-          <entry key="js" value="293" />
+          <entry key="js" value="296" />
           <entry key="json" value="6" />
           <entry key="jsx" value="2" />
           <entry key="ts" value="1" />
-          <entry key="txt" value="22" />
+          <entry key="txt" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -48,8 +45,8 @@
           <entry key="HTML" value="4" />
           <entry key="JSON" value="6" />
           <entry key="JSX Harmony" value="2" />
-          <entry key="JavaScript" value="293" />
-          <entry key="PLAIN_TEXT" value="23" />
+          <entry key="JavaScript" value="296" />
+          <entry key="PLAIN_TEXT" value="24" />
           <entry key="TypeScript" value="1" />
         </counts>
       </usages-collector>
@@ -57,7 +54,7 @@
         <counts>
           <entry key="css" value="908" />
           <entry key="html" value="423" />
-          <entry key="js" value="30244" />
+          <entry key="js" value="30563" />
           <entry key="json" value="109" />
           <entry key="jsx" value="3" />
           <entry key="txt" value="7918" />
@@ -69,13 +66,13 @@
           <entry key="HTML" value="423" />
           <entry key="JSON" value="109" />
           <entry key="JSX Harmony" value="3" />
-          <entry key="JavaScript" value="30244" />
+          <entry key="JavaScript" value="30563" />
           <entry key="PLAIN_TEXT" value="7918" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="ESLintLanguageService" value="39" />
+          <entry key="ESLintLanguageService" value="40" />
           <entry key="TypeScriptServerServiceImpl" value="1" />
         </counts>
       </usages-collector>
@@ -86,8 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/day20/views/AddStudent.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="40" column="43" lean-forward="true" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+            <state relative-caret-position="176">
+              <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -99,7 +96,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/day20/store/store.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="506">
-              <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+              <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
               <folding>
                 <element signature="e#0#68#0" expanded="true" />
               </folding>
@@ -108,19 +105,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/day13/store/store.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/day12/store/store.js">
+        <entry file="file://$PROJECT_DIR$/笔记1702G.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#38#88#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="40">
+              <caret line="768" column="4" lean-forward="true" selection-start-line="768" selection-start-column="4" selection-end-line="768" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -128,32 +116,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/day20/ClassRoom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="18" column="51" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="51" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/day20/views/ClassDetail.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="43" selection-start-line="43" selection-end-line="44" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/day20/views/CreateClass.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="37" column="24" lean-forward="true" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+            <state relative-caret-position="198">
+              <caret line="15" column="62" lean-forward="true" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="68" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -162,31 +126,58 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/day20/views/StudentDetail.js">
+        <entry file="file://$PROJECT_DIR$/src/components/day20/views/ClassDetail.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/day19/store/store.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+            <state relative-caret-position="88">
+              <caret line="82" column="36" lean-forward="true" selection-start-line="82" selection-start-column="36" selection-end-line="82" selection-end-column="36" />
               <folding>
-                <element signature="e#0#68#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.js">
+        <entry file="file://$PROJECT_DIR$/config/webpack.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="814">
-              <caret line="37" column="53" lean-forward="true" selection-start-line="37" selection-start-column="53" selection-end-line="37" selection-end-column="53" />
+            <state relative-caret-position="-132" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/webpackDevServer.config.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/day20/views/CreateClass.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="38" column="45" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="45" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/day20/views/StudentDetail.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/day20/views/ClassManager.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -263,10 +254,10 @@
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/day20/json.json" />
         <option value="$PROJECT_DIR$/src/components/day20/store/store.js" />
-        <option value="$PROJECT_DIR$/src/components/day20/views/CreateClass.js" />
-        <option value="$PROJECT_DIR$/src/components/day20/views/ClassDetail.js" />
         <option value="$PROJECT_DIR$/src/components/day20/views/AddStudent.js" />
         <option value="$PROJECT_DIR$/src/components/day20/views/StudentDetail.js" />
+        <option value="$PROJECT_DIR$/src/components/day20/views/CreateClass.js" />
+        <option value="$PROJECT_DIR$/src/components/day20/views/ClassDetail.js" />
       </list>
     </option>
   </component>
@@ -316,7 +307,12 @@
             <path>
               <item name="react1702G" type="b2602c69:ProjectViewProjectNode" />
               <item name="reactproject" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react1702G" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reactproject" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react1702G" type="b2602c69:ProjectViewProjectNode" />
@@ -487,7 +483,8 @@
       <workItem from="1561701720410" duration="5262000" />
       <workItem from="1561768298833" duration="4246000" />
       <workItem from="1561941609596" duration="6100000" />
-      <workItem from="1561956169377" duration="5634000" />
+      <workItem from="1561956169377" duration="6387000" />
+      <workItem from="1562027158439" duration="2945000" />
     </task>
     <task id="LOCAL-00001">
       <created>1561947070919</created>
@@ -503,11 +500,18 @@
       <option name="project" value="LOCAL" />
       <updated>1561947098313</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="课堂代码">
+      <created>1561966909054</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1561966909054</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="221279000" />
+    <option name="totallyTimeSpent" value="224977000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -554,20 +558,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="课堂代码" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/day15/api/request.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/day15/store/action/action.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/day15/store/store.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -688,9 +678,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="11" lean-forward="true" selection-start-line="7" selection-end-line="10" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -802,20 +789,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/笔记1702G.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="768" column="4" lean-forward="true" selection-start-line="768" selection-start-column="4" selection-end-line="768" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/day20/views/ClassManager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/day19/Test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="726">
@@ -843,19 +816,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="37" column="53" lean-forward="true" selection-start-line="37" selection-start-column="53" selection-end-line="37" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/day13/store/store.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/day12/store/store.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
+        <state relative-caret-position="352">
           <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -864,20 +830,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/day20/views/CreateClass.js">
+    <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="37" column="24" lean-forward="true" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+        <state relative-caret-position="814">
+          <caret line="37" column="53" lean-forward="true" selection-start-line="37" selection-start-column="53" selection-end-line="37" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/day20/views/StudentDetail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/day20/ClassRoom.js">
+    <entry file="file://$PROJECT_DIR$/src/components/day20/views/ClassManager.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="18" column="51" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="51" />
+        <state relative-caret-position="44">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/day20/views/AddStudent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -887,37 +867,55 @@
     <entry file="file://$PROJECT_DIR$/src/components/day20/store/store.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
-          <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+          <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
           <folding>
             <element signature="e#0#68#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/笔记1702G.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="768" column="4" lean-forward="true" selection-start-line="768" selection-start-column="4" selection-end-line="768" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/day20/ClassRoom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="15" column="62" lean-forward="true" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/day20/views/CreateClass.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="38" column="45" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/webpackDevServer.config.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-132" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/day20/views/ClassDetail.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="43" selection-start-line="43" selection-end-line="44" />
+        <state relative-caret-position="88">
+          <caret line="82" column="36" lean-forward="true" selection-start-line="82" selection-start-column="36" selection-end-line="82" selection-end-column="36" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/day20/views/AddStudent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="40" column="43" lean-forward="true" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/day20/views/StudentDetail.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
